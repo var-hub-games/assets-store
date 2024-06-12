@@ -1,0 +1,20 @@
+{
+  "name": "assets-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "type":  "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "build-and-start": "npm run build && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "myxomopx@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {}
+}
